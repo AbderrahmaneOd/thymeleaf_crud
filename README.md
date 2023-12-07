@@ -1,13 +1,13 @@
-# Simple Project using EJB and Thymeleaf
+# Simple Project using Spring Boot and Thymeleaf
 
 ## Objective
 
 ## Technologies Used
 - **Thymeleaf**: Java framework for developing component-based web applications.
-- **EJB**: Server-side component architecture for Java EE used to simplify the development of large-scale, distributed applications.
 - **Java EE (Enterprise Edition)**: Execution platform for Java enterprise applications.
 - **Java Persistence API (JPA)**: Java specification for managing data persistence.
 - **MySQL**: Database for storing application data.
+- **Spring Boot**
 
 ## Features
 
