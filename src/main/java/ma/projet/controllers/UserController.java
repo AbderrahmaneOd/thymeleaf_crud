@@ -18,6 +18,12 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
+    @GetMapping({"/","/home"})
+    public String showIndex(Model model){
+        model.addAttribute("users",userRepository.findAll());
+        return "index";
+    }
+
     @GetMapping("/signup")
     public String showSignUpForm(User user) {
         return"add-user";
